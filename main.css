@@ -1,0 +1,272 @@
+.biorhyme-port-vazado-bege, .biorhyme-port-vazado-amarelo, .biorhyme-port-preenchido {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.deloitte-bauducco, .cora-autonomy {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 4rem;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #344C36;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  background-color: #344C36;
+  padding: 1.5em;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 4;
+}
+
+#nome {
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #DBD2C1;
+  font-size: 1.5rem;
+  letter-spacing: 2;
+}
+
+.menu-superior {
+  display: flex;
+  align-items: end;
+  align-content: flex-end;
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #DBD2C1;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA {
+  background-color: #FAAD1B;
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000000;
+  text-decoration: none;
+  align-self: center;
+  padding: 0rem;
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 11rem;
+  height: 2.5rem;
+}
+
+.pagina-principal {
+  display: block;
+  background-color: #344C36;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  height: 100rem;
+}
+
+.caixa-port h1 {
+  position: relative;
+  top: -44rem;
+  left: 12rem;
+  display: grid;
+  grid-template-rows: 1f 1f 1f 1f;
+  font-size: 21rem;
+  margin-bottom: -1rem;
+  letter-spacing: -0.5rem;
+  height: 18rem;
+}
+
+.biorhyme-port-preenchido {
+  color: #DBD2C1;
+  z-index: 3;
+  position: relative;
+}
+
+.biorhyme-port-vazado-amarelo {
+  text-shadow: #FAAD1B 1px -1px, #FAAD1B -1px 1px, #FAAD1B 1px 1px, #FAAD1B -1px -1px;
+  color: #344C36;
+  z-index: 1;
+  position: relative;
+}
+
+.biorhyme-port-vazado-bege {
+  text-shadow: #DBD2C1 1px -1px, #DBD2C1 -1px 1px, #DBD2C1 1px 1px, #DBD2C1 -1px -1px;
+  color: #344C36;
+  z-index: 1;
+}
+
+#foto-cachorro {
+  position: relative;
+  top: 23rem;
+  left: 15rem;
+  scale: 1.4;
+  z-index: 2;
+}
+
+.div-preta {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #000000;
+  position: absolute;
+  top: 71rem;
+  width: 100%;
+  height: 33rem;
+  padding-top: 13rem;
+  padding-left: 18rem;
+  padding-right: 40rem;
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #DBD2C1;
+  z-index: 2;
+}
+
+.div-texto-apresentacao {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 2rem;
+}
+
+.caixa-bege-works {
+  display: flex;
+  flex-direction: column;
+  background-color: #DBD2C1;
+  position: absolute;
+  top: 100rem;
+  width: 100%;
+  height: 37rem;
+}
+
+.biorhyme-some-of {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 11rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #000000;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  /*position: relative;
+  left: 5rem;
+  top: 3rem;*/
+}
+
+.biorhyme-my-works {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 11rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #344C36;
+  padding-left: 5rem;
+  margin-top: -5rem;
+  /*position: relative;
+  top: -1rem;
+  left: 5rem;*/
+}
+
+.texto-preto {
+  font-family: "Bellota", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000000;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  /*position: relative;
+  top: -1rem;*/
+}
+
+.div-projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #344C36;
+  position: absolute;
+  top: 134rem;
+  height: 93.7rem;
+  width: 100%;
+}
+
+.texto-projects h3 {
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 11.25rem;
+  font-style: normal;
+  text-shadow: #FAAD1B 1px -1px, #FAAD1B -1px 1px, #FAAD1B 1px 1px, #FAAD1B -1px -1px;
+  font-variation-settings: "wdth" 100;
+  color: #344C36;
+  margin-bottom: -2rem;
+  position: relative;
+  left: 2rem;
+}
+
+.trabalhos {
+  display: grid;
+  grid-template-areas: "cora-autonomy deloitte-bauducco";
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 4rem;
+  width: 80%;
+  height: 120rem;
+  justify-self: center;
+  position: relative;
+  top: 152rem;
+  z-index: 3;
+}
+
+.cora-autonomy {
+  grid-area: cora-autonomy;
+}
+
+.deloitte-bauducco {
+  grid-area: deloitte-bauducco;
+  padding-top: 17rem;
+}
+
+.nomes-empresas {
+  background-color: #d9d9d9;
+  font-family: "BioRhyme", serif;
+  font-weight: 800;
+  font-size: 4rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #344C36;
+  padding-left: 1.5rem;
+  align-items: start;
+  justify-items: start;
+}
+
+.fundo-bege {
+  background-color: #DBD2C1;
+  height: 50rem;
+  position: absolute;
+  top: 250rem;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
