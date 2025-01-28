@@ -142,7 +142,7 @@
   font-style: normal;
   font-size: 1.5rem;
   color: #DBD2C1;
-  z-index: 2;
+  z-index: 1;
 }
 
 .div-texto-apresentacao {
@@ -269,4 +269,409 @@
   width: 100%;
 }
 
-/*# sourceMappingURL=main.css.map */
+/* Media query para desktops */
+@media (max-width: 1199.98px) {
+
+
+  .pagina-principal {
+  display: block;
+    height: 42rem;
+  }
+  
+  .caixa-port h1 {
+  top: -36rem;
+  left: 8rem;
+  font-size: 10.0rem;
+  height: 9rem;
+  }
+  
+  
+  #foto-cachorro {
+  top: 8.5rem;
+  left: -2.8rem;
+  scale: 0.65;
+  }
+  
+  .div-preta {
+  grid-template-columns: 60% 40%;
+  top: 42rem;
+  height: 21rem;
+  padding-top: 7rem;
+  padding-left: 10rem;
+  padding-right: 0rem;
+  font-size: 1.3rem;;
+  z-index: 2;
+  }
+  
+  .caixa-bege-works {
+  top: 63rem;
+  height: 37rem;
+  }
+  
+  .biorhyme-some-of {
+  padding-left: 5rem;
+  padding-top: 1rem;
+  }
+  
+  .div-projects {
+  top: 100rem;
+  height: 93.7rem;
+  }
+  
+  .texto-projects h3 {
+  font-size: 8rem;
+    left: 4rem;
+    top: 4rem;
+  }
+  
+  .trabalhos {
+  gap: 2rem;
+  width: 85%;
+  top: 68rem;
+  }
+  
+  .cora-autonomy {
+  gap: 2rem;
+  }
+  
+  .deloitte-bauducco {
+  gap: 2rem;
+  padding-top: 12rem;
+  }
+  
+  .fundo-bege {
+  height: 23rem;
+  top: 193.5rem;
+  }
+  }
+  
+  
+  
+  /* Media query para tablets */
+  @media (max-width: 991.98px) {
+  
+    .navegador {
+      padding: 1em;
+  }
+  
+  #nome {
+    font-size: 1.3rem;
+  }
+  
+  .menu-superior {
+    font-size: 1.3rem;
+  }
+  
+  .CTA {
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2.3rem;
+  }
+  
+  .pagina-principal {
+      height: 35rem;
+  }
+  
+  .caixa-port h1 {
+    top: -40rem;
+    left: 5.5rem;
+    font-size: 8.5rem;
+    height: 8rem;
+  }
+  
+  #foto-cachorro {
+    top: 1.5rem;
+    left:-6.5rem;
+    scale: 0.55;
+  }
+  
+  .div-preta {
+    grid-template-columns: 70% 30%;
+    top: 35rem;
+    height: 15rem;
+    padding-top: 6rem;
+    padding-left: 11rem;
+    padding-right: 0rem;
+    font-size: 1rem;
+  }
+  
+  .caixa-bege-works {
+    top: 50rem;
+    height: 30rem;
+  }
+  
+  .biorhyme-some-of {
+    font-size: 7rem;
+    padding-top: 3rem;
+  }
+  
+  .biorhyme-my-works {
+    font-size: 7rem;
+    margin-top: -3rem;
+  }
+  
+  .texto-preto {
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 3cm;
+  }
+  
+  .div-projects {
+    top: 80rem;
+    height: 93.7rem;
+  }
+  
+  .texto-projects h3 {
+    font-size: 8rem;
+      margin-bottom: -2.5rem;
+      left: 3.5rem;
+  }
+  
+  .trabalhos {
+    gap: 2rem;
+    width: 85%;
+    height: 90rem;
+    top: 55rem;
+  }
+  
+  .cora-autonomy {
+    gap: 2rem;
+  }
+  
+  .deloitte-bauducco {
+    gap: 2rem;
+    padding-top: 11rem;
+  }
+  
+  
+  .fundo-bege {
+    height: 13rem;
+    top: 173rem;
+  }
+  }
+  
+  /* Media query para landscape phones */
+  @media (max-width: 767.98px) {
+  
+    .navegador {
+      padding: 0.6em;
+  }
+  
+  #nome {
+    font-size: 1rem;
+  }
+  
+  .menu-superior {
+    font-size: 1rem;
+  }
+  
+  .CTA {
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 8rem;
+    height: 2rem;
+  }
+  
+  .pagina-principal {
+      height: 28rem;
+  }
+  
+  .caixa-port h1 {
+    top: -42rem;
+    left: 4.9rem;
+    font-size: 6.9rem;
+    height: 8rem;
+    margin-bottom: -2.2rem;
+  }
+  
+  #foto-cachorro {
+    top: -3rem;
+    left:-9rem;
+    scale: 0.48;
+  }
+  
+  .div-preta {
+    grid-template-columns: 70% 30%;
+    top: 28rem;
+    height: 15rem;
+    padding-top: 6rem;
+    padding-left: 7rem;
+    padding-right: 0rem;
+    font-size: 1rem;
+  }
+  
+  .caixa-bege-works {
+    top: 43rem;
+    height: 30rem;
+  }
+  
+  .biorhyme-some-of {
+    font-size: 7rem;
+    padding-top: 1rem;
+  }
+  
+  .biorhyme-my-works {
+    font-size: 7rem;
+    margin-top: -3rem;
+  }
+  
+  .texto-preto {
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+  
+  .div-projects {
+    top: 73rem;
+    height: 60rem;
+  }
+  
+  .texto-projects h3 {
+    font-size: 5rem;
+      margin-bottom: -1rem;
+      left: 3rem;
+      top: 2rem;
+  }
+  
+  .trabalhos {
+    gap: 2rem;
+    width: 80%;
+    height: 60rem;
+    top: 51rem;
+  }
+  
+  .cora-autonomy {
+    gap: 2rem;
+  }
+  
+  .deloitte-bauducco {
+    gap: 2rem;
+    padding-top: 8rem;
+  }
+  
+  .nomes-empresas {
+    font-size: 2rem;
+    font-style: normal;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  
+  .fundo-bege {
+    height: 15rem;
+    top: 130rem;
+  }
+  }
+  
+  
+  /* Media query para portrait phones */
+  @media (max-width: 575.98px) {
+  
+    .navegador {
+      padding: 0.6em;
+  }
+  
+  #nome {
+    font-size: 1rem;
+  }
+  
+  .menu-superior {
+    font-size: 1rem;
+  }
+  
+  .CTA {
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 8rem;
+    height: 2rem;
+  }
+  
+  .pagina-principal {
+      height: 28rem;
+  }
+  
+  .caixa-port h1 {
+    top: -42rem;
+    left: 4.9rem;
+    font-size: 2.9rem;
+    height: 8rem;
+    margin-bottom: -2.2rem;
+  }
+  
+  #foto-cachorro {
+    top: -3rem;
+    left:-9rem;
+    scale: 0.48;
+  }
+  
+  .div-preta {
+    grid-template-columns: 70% 30%;
+    top: 28rem;
+    height: 15rem;
+    padding-top: 6rem;
+    padding-left: 7rem;
+    padding-right: 0rem;
+    font-size: 1rem;
+  }
+  
+  .caixa-bege-works {
+    top: 43rem;
+    height: 30rem;
+  }
+  
+  .biorhyme-some-of {
+    font-size: 7rem;
+    padding-top: 1rem;
+  }
+  
+  .biorhyme-my-works {
+    font-size: 7rem;
+    margin-top: -3rem;
+  }
+  
+  .texto-preto {
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+  
+  .div-projects {
+    top: 73rem;
+    height: 60rem;
+  }
+  
+  .texto-projects h3 {
+    font-size: 5rem;
+      margin-bottom: -1rem;
+      left: 3rem;
+      top: 2rem;
+  }
+  
+  .trabalhos {
+    gap: 2rem;
+    width: 80%;
+    height: 60rem;
+    top: 51rem;
+  }
+  
+  .cora-autonomy {
+    gap: 2rem;
+  }
+  
+  .deloitte-bauducco {
+    gap: 2rem;
+    padding-top: 8rem;
+  }
+  
+  .nomes-empresas {
+    font-size: 2rem;
+    font-style: normal;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  
+  .fundo-bege {
+    height: 15rem;
+    top: 130rem;
+  }
+  }
